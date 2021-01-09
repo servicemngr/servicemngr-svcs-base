@@ -11,7 +11,7 @@ type DependencyWeb struct {
 }
 
 func (d DependencyWeb) ID() instance.ID {
-	return d.id
+	return d.web.id
 }
 
 func (d *DependencyWeb) RegisterInstanceAPI(wi WebInstance) {
