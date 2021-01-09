@@ -8,6 +8,6 @@ import (
 
 var Manifest = manifest.ServiceManifest{
 	Name:             consts.SERVICE_NAME,
-	Instantiable:     true,
+	Instantiable:     false,
 	InstanceInitFunc: config.Init,
 }
